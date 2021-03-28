@@ -1,0 +1,10 @@
+        h1      { font-family: 'Dela Gothic One', sans-serif; }
+        em      { font-size: 50px; color: skyblue; }
+        h3      { font-family: 'Roboto Condensed', arial; margin-left: 100px; }
+        p       { font-family: 'Source Sans Pro', arial; }
+        p.nav   { font-family: 'Roboto Condensed', arial; font-size: 20px; color: navy; }
+        a:hover { background-color: navy; color: white; }
+        .div1   { width: 60px; height: 30px; border: 1; background-color: green;
+                  text-align: center; font-family: 'Roboto Condensed', arial; padding: .5em; }
+        .div2   { width: 60px; height: 30px; border: 1; background-color: red;
+                  text-align: center; font-family: 'Roboto Condensed', arial; padding: .5em; }
