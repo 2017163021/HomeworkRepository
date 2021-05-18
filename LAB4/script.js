@@ -1,4 +1,4 @@
-let count = 1;
+let count = 0;
 fetch('product.json')
 .then(function(response){return response.json();})
 .then(function(json){
@@ -20,15 +20,15 @@ function initialize(products){
 
     let categoryGroup;
     let finalGroup;
-    finalGroup = products;
-
     
+    finalGroup = products;
     scroll();
+
     window.onscroll = () => {
         if (window.innerHeight + window.scrollY >= document.body.offsetHeight){
             scroll();
         }
-    }
+    };
     categoryGroup = [];
     finalGroup = [];
     
@@ -53,7 +53,6 @@ function initialize(products){
             else{   
                 for (let i = 0; i < products.length; i++){
                     if (category.value == products[i].type){
-                        console.log("hello");
                         categoryGroup.push(products[i]);
                     }
                 }
@@ -78,7 +77,10 @@ function initialize(products){
                 if (st == categoryGroup[x].company){
                     finalGroup.push(categoryGroup[x]);
                 }
-            }       
+            }  
+            if (finalGroup.length == 0 && lastSearch != ''){
+                window.alert("Please search in samsung/apple/phone/pad/watch!");
+            }     
         }
         while(main.firstChild){
             main.removeChild(main.firstChild);
@@ -86,14 +88,17 @@ function initialize(products){
         scroll();
     }
 
-    function scroll(){        
+    function scroll(){
+        if (finalGroup.length == 0 && lastSearch ==''){
+            finalGroup = products;
+        }
+        console.log(finalGroup.length);
         while (count < finalGroup.length){
                 update(count);
                 count++;
         }
-  
-        window.removeEventListener("onscroll", initialize);
-        count = 1;
+        count = 0;
+       
     }
     
     function update(x){
@@ -104,7 +109,6 @@ function initialize(products){
 
         img.setAttribute("id", finalGroup[x].image2);
         section.setAttribute("id", finalGroup[x].price);
-        console.log(img.id);
 
         heading.textContent = finalGroup[x].name;
         img.src = finalGroup[x].image1;
@@ -120,5 +124,6 @@ function initialize(products){
             e.target.setAttribute("src", e.target.id);
             e.path[1].appendChild(txt);
         };
+        
     }
 }
