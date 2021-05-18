@@ -1,0 +1,59 @@
+        /* Public */
+        body    {  width: 1020px; position: relative; margin-left: auto; margin-right:auto; font-family: 'Roboto Condensed', arial;}
+        h1      { font-family: 'Dela Gothic One', sans-serif; text-align: center;}
+        em      { font-size: 50px; color: skyblue; }
+        p       { font-family: 'Source Sans Pro', arial; margin-left: 350px; }
+        p.nav   { font-family: 'Roboto Condensed', arial; font-size: 20px; color: navy; }
+        a:hover { background-color: navy; color: white; }
+
+        /*signup & login */
+        h3      { font-family: 'Roboto Condensed', arial; margin-left: 450px; }
+        .div1   { width: 60px; height: 30px; border: 1; background-color: green;
+                  text-align: center; font-family: 'Roboto Condensed', arial; padding: .5em; }
+        .div2   { width: 60px; height: 30px; border: 1; background-color: red;
+                  text-align: center; font-family: 'Roboto Condensed', arial; padding: .5em; }
+
+
+        /*index */
+        .move    { position: relative;
+                   animation: moving;
+                   animation-timing-function: linear;
+                   animation-duration: 2s;}
+        @keyframes moving{
+                   0% {left: 510px;}
+                   100% {left: 0px;}
+                    }
+        /* product */
+        div     {display: inline;}
+        h3      {font-size: 20px; text-align: center; margin: 0;}
+
+        aside    { padding: 20px; text-align: center; font-size: 30px;
+                   display: block; flex-flow: column; align-items: stretch;}
+
+        div > div { border:5px solid black; padding: 5px; display: block;}
+        
+        select    { block-size: 30px; font-family: 'Roboto Condensed', arial;}
+
+        input    { block-size: 30px; font-family: 'Roboto Condensed', arial;}
+
+        button    { background-color: white; padding: 5px; border: 1px solid black; 
+                block-size: 30px; font-family: 'Roboto Condensed', arial;}
+
+        button:hover { background-color: rgb(0, 140, 255); color:white}
+
+        main     { display: flex; flex-flow: row wrap; flex: 7; }
+
+        section { width: 310px; height: 450px; padding: .5em; 
+                border: 3px solid rgb(135, 167, 235);
+                background-color:black; position: relative;
+                flex-flow: column; flex-wrap: nowrap;}
+
+        section h2 { z-index: 100; color: white; }
+
+        section img  { z-index: 0 ; width: 310px; display: block;  }
+
+        section button    {width: 20px; height: 20x; display: block; background-color: gray;
+                                font-size: 15;}
+
+        section p     {color: white; z-index: 200; font-size: 30px; width: 300px; margin: 0px;
+                        position: absolute;  text-align: center; }

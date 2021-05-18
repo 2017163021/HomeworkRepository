@@ -1,0 +1,163 @@
+[
+        {
+            "name": "iPhone 12 pro",
+            "price": "1,350,000",
+            "image1": "iPhone12pro.jpg",
+            "image2": "iPhone12pro_2.jpg", 
+            "type": "phone",
+            "company": "apple"
+        },
+
+        {
+            "name": "iPhone 12",
+            "price": "950,000",
+            "image1": "iPhone12.jpg",
+            "image2": "iPhone12_2.jpg",
+            "type": "phone",
+            "company": "apple"
+        },
+        {
+            "name": "iPhone 11 pro",
+            "price": "1,200,000",
+            "image1": "iPhone11pro.jpg",
+            "image2": "iPhone11pro_2.jpg",
+            "type": "phone",
+            "company": "apple"
+        },
+        {
+            "name": "iPhone 11",
+            "price": "800,000",
+            "image1": "iPhone11.jpg",
+            "image2": "iPhone11_2.jpg",
+            "type": "phone",
+            "company": "apple"
+        },
+        {
+            "name": "Galaxy S21 Ultra 5G",
+            "price": "1,452,000",
+            "image1": "GalaxyS21Ultra.jpg",
+            "image2": "GalaxyS21Ultra_2.jpg",
+            "type": "phone",
+            "company": "Samsung"
+        },
+        {
+            "name": "Galaxy S21 5G",
+            "price": "1,000,000",
+            "image1": "GalaxyS21.jpg",
+            "image2": "GalaxyS21_2.jpg",
+            "type": "phone",
+            "company": "Samsung"
+        },
+        {
+            "name": "GalaxyNote 20",
+            "price": "800,000",
+            "image1": "GalaxyNote20.jpg",
+            "image2": "GalaxyNote20_2.jpg",
+            "type": "phone",
+            "company": "Samsung"
+        },
+        {
+            "name": "GalaxyNote 20 Ultra",
+            "price": "1,000,000",
+            "image1": "GalaxyNote20Ultra.jpg",
+            "image2": "GalaxyNote20Ultra_2.jpg",
+            "type": "phone",
+            "company": "Samsung"
+        },
+        {
+            "name": "iPad Pro",
+            "price": "1,379,000",
+            "image1": "iPadPro.jpg",
+            "image2": "iPadPro_2.jpg",
+            "type": "pad",
+            "company": "apple"
+        },
+        {
+            "name": "iPad Air",
+            "price": "779,000",
+            "image1": "iPadAir.jpg",
+            "image2": "iPadAir_2.jpg",
+            "type": "pad",
+            "company": "apple"
+        },
+        {
+            "name": "iPad",
+            "price": "500,000",
+            "image1": "iPad.jpg",
+            "image2": "iPad_2.jpg",
+            "type": "pad",
+            "company": "apple"
+        },
+        {
+            "name": "iPad Mini",
+            "price": "500,000",
+            "image1": "iPadMini.jpg",
+            "image2": "iPadMini_2.jpg",
+            "type": "pad",
+            "company": "apple"
+        },
+        {
+            "name": "Galaxy Tab S7",
+            "price": "1,099,500",
+            "image1": "GalaxyTabS7.jpg",
+            "image2": "GalaxyTabS7_2.jpg",
+            "type": "pad",
+            "company": "Samsung"
+        },
+        {
+            "name": "Galaxy Tab S7 plus",
+            "price": "1,349,200",
+            "image1": "GalaxyTabS7plus.jpg",
+            "image2": "GalaxyTabS7plus_2.jpg",
+            "type": "pad",
+            "company": "Samsung"
+        },
+        {
+            "name": "Apple Watch 6",
+            "price": "539,000",
+            "image1": "Applewatch6.jpg",
+            "image2": "Applewatch6_2.jpg",
+            "type": "watch",
+            "company": "apple"
+        },
+        {
+            "name": "Apple Watch SE",
+            "price": "359,000",
+            "image1": "ApplewatchSE.jpg",
+            "image2": "ApplewatchSE_2.jpg",
+            "type": "watch",
+            "company": "apple"
+        },
+        {
+            "name": "Apple Watch 3",
+            "price": "259,000",
+            "image1": "Applewatch3.jpg",
+            "image2": "Applewatch3_2.jpg",
+            "type": "watch",
+            "company": "apple"
+        },
+        {
+            "name": "Galaxy Watch 3 45mm",
+            "price": "349,000",
+            "image1": "Galaxywatch3_45mm.jpg",
+            "image2": "Galaxywatch3_45mm_2.jpg",
+            "type": "watch",
+            "company": "Samsung"
+        },
+        {
+            "name": "Galaxy Watch 3 41mm",
+            "price": "319,000",
+            "image1": "Galaxywatch3_41mm.jpg",
+            "image2": "Galaxywatch3_41mm_2.jpg",
+            "type": "watch",
+            "company": "Samsung"
+        },
+        {
+            "name": "Galaxy Watch active 2",
+            "price": "299, 200",
+            "image1": "GalaxywatchActive.jpg",
+            "image2": "GalaxywatchActive_2.jpg",
+            "type": "watch",
+            "company": "Samsung"
+        }
+]
